@@ -21,7 +21,7 @@ a {
 
 /* line 42, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 p {
-  margin: 0.2em 4%; }
+  margin: 0.2em 4% 0.8em 4%; }
 
 /* line 46, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 ul, li {
@@ -40,22 +40,18 @@ ul.navbuttons {
   ul.navbuttons li a {
     display: block;
     width: 100%;
-    font-size: 1.3em;
-    color: #fff;
-    background: #400b6a;
-    background-color: #5b1095;
-    background: -moz-linear-gradient(top, #5b1095 0%, #24063c 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5b1095), color-stop(100%, #24063c));
-    background: -webkit-linear-gradient(top, #5b1095 0%, #24063c 100%);
-    background: -o-linear-gradient(top, #5b1095 0%, #24063c 100%);
-    background: -ms-linear-gradient(top, #5b1095 0%, #24063c 100%);
-    background: linear-gradient(to bottom, #5b1095 0%, #24063c 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color1', endColorstr='$color2',GradientType=0 );
-    -webkit-border-radius: 0.8em;
-    -moz-border-radius: 0.8em;
-    border-radius: 0.8em;
-    padding: 0.3em 1.1em; }
+    text-align: center;
+    font-size: 1.2em;
+    color: #400b6a;
+    background: #e9dbf5;
+    background-color: #e9dbf5;
+    border: 2px solid #c0afcf;
+    /*@include buttonBackground;*/
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    padding: 0.3em; }
 
-/* line 68, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 70, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 div.intro {
   margin: 1em 0 2em; }

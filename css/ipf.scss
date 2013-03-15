@@ -40,7 +40,7 @@ a {
 }
 
 p {
-	margin: 0.2em 4%;
+	margin: 0.2em 4% 0.8em 4%;
 }
 
 ul, li { margin: 0; padding: 0 }
@@ -55,13 +55,15 @@ ul.navbuttons {
 	li a {
 		display: block;
 		width: 100%;
-		font-size: 1.3em;
-		color: #fff;
-		background: $links;
-		background-color: #5b1095;
-		@include buttonBackground;
-		@include buttonBorder(0.8em);
-		padding: 0.3em 1.1em;
+		text-align: center;
+		font-size: 1.2em;
+		color: $links;
+		background: #e9dbf5;
+		background-color: #e9dbf5;
+		border: 2px solid #c0afcf;
+		/*@include buttonBackground;*/
+		@include buttonBorder(1em);
+		padding: 0.3em;
 	}
 }
 
