@@ -4,69 +4,139 @@ IPF Styles
 
 $highlight: #72950d;
 $links: #400b6a;
+$odd_row: #f7fce8;
 
 @mixin buttonBorder($r) {
-	-webkit-border-radius: $r;
-	-moz-border-radius: $r;
-	border-radius: $r;
+    -webkit-border-radius: $r;
+    -moz-border-radius: $r;
+    border-radius: $r;
+}
+@mixin backButtonBorder($r) {
+    -webkit-border-top-left-radius: $r;
+    -webkit-border-bottom-left-radius: $r;
+    -moz-border-radius-topleft: $r;
+    -moz-border-radius-bottomleft: $r;
+    border-top-left-radius: $r;
+    border-bottom-left-radius: $r;
 }
 @mixin buttonBackground {
-	$color1: #5b1095;
-	$color2: #24063c;
-	background: -moz-linear-gradient(top, $color1 0%, $color2 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color1), color-stop(100%,$color2));
-	background: -webkit-linear-gradient(top, $color1 0%,$color2 100%);
-	background: -o-linear-gradient(top, $color1 0%,$color2 100%);
-	background: -ms-linear-gradient(top, $color1 0%,$color2 100%);
-	background: linear-gradient(to bottom, $color1 0%,$color2 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=0 );
+    $color1: #5b1095;
+    $color2: #24063c;
+    background: -moz-linear-gradient(top, $color1 0%, $color2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color1), color-stop(100%,$color2));
+    background: -webkit-linear-gradient(top, $color1 0%,$color2 100%);
+    background: -o-linear-gradient(top, $color1 0%,$color2 100%);
+    background: -ms-linear-gradient(top, $color1 0%,$color2 100%);
+    background: linear-gradient(to bottom, $color1 0%,$color2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=0 );
 }
 
+
 header {
-	width: 100%;
-	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 h1 {
-	margin: 0.3em 0;
-	padding: 0.3em 4%;
-	font-size: 0.9em;
-	color: #fff;
-	background: $highlight;
+    margin: 0.6em 0;
+    padding: 0.5em 4% 0.2em;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    background: $highlight repeat-x;
 }
+h2 {
+    font-size: 1.1em;
+    color: $highlight;
+    margin: 1em 0 0.5em;
+    padding: 0.2em 4%;
+}
+h2.home {
+    background: $odd_row;
+    border-top: 1px solid $highlight;
+    border-bottom: 1px solid $highlight;
+}
+h3 {
+    margin: 1em 4% 0.2em;
+}
+
+
 a {
-	color: $links;
-	text-decoration: none;
+    color: $links;
+    text-decoration: none;
 }
 
 p {
-	margin: 0.2em 4% 0.8em 4%;
+    margin: 0.2em 4% 0.8em 4%;
 }
+p.intro {
+    font-size: 1.2em;
+    margin-bottom: 1.3em;
+    color: $highlight;
+}
+
 
 ul, li { margin: 0; padding: 0 }
 
 ul.navbuttons {
-	width: 92%;
-	margin: 0 auto 1.5em auto;
-	list-style: none;
-	li {
-		margin: 0.4em 0;
-	}
-	li a {
-		display: block;
-		width: 100%;
-		text-align: center;
-		font-size: 1.2em;
-		color: $links;
-		background: #e9dbf5;
-		background-color: #e9dbf5;
-		border: 2px solid #c0afcf;
-		/*@include buttonBackground;*/
-		@include buttonBorder(1em);
-		padding: 0.3em;
-	}
+    width: 92%;
+    margin: 0 auto 2em auto;
+    list-style: none;
+    li {
+        margin: 0.4em 0;
+    }
+    li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        color: $links;
+        background: #e9dbf5;
+        background-color: #e9dbf5;
+        border: 2px solid #c0afcf;
+        /*@include buttonBackground;*/
+        @include buttonBorder(1em);
+        padding: 0.3em;
+    }
+}
+ul.vendor {
+    margin-bottom: 1.5em;
+    list-style: none;
+    width: 100%;
+    li {
+        margin: 0.3em 0;
+        padding: 0.6em 0;
+        width: 100%;
+        h3 {
+            margin-top: 0;
+        }
+        a, span {
+            display: block;
+            margin: 0 4%;
+        }
+    }
+    li:nth-child(odd) {
+        background: $odd_row;
+    }
 }
 
+
 div.intro {
-	margin: 1em 0 2em;
+    margin: 1em 0 2em;
+}
+
+a.back {
+    display: block;
+    margin: 0 4%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: $highlight;
+    @include buttonBorder(1em);
+    padding: 0.3em;
+}
+
+body > article {
+    margin-top: 2em;
 }
