@@ -1,67 +1,68 @@
 /*
 IPF Styles
 */
-/* line 35, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 36, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 header {
   width: 100%;
   text-align: center; }
 
-/* line 40, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 41, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 h1 {
-  margin: 0.6em 0;
-  padding: 0.5em 4% 0.2em;
-  font-size: 1.4em;
+  margin: 0.4em 0;
+  padding: 0.3em 4% 0;
+  font-size: 1.6em;
   font-weight: normal;
   text-align: center;
   color: #fff;
   background: #72950d repeat-x; }
 
-/* line 49, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 50, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 h2 {
   font-size: 1.1em;
   color: #72950d;
   margin: 1em 0 0.5em;
   padding: 0.2em 4%; }
 
-/* line 55, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 56, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 h2.home {
   background: #f7fce8;
   border-top: 1px solid #72950d;
   border-bottom: 1px solid #72950d; }
 
-/* line 60, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 61, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 h3 {
   margin: 1em 4% 0.2em; }
 
-/* line 65, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 66, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 a {
   color: #400b6a;
   text-decoration: none; }
 
-/* line 70, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 71, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 p {
   margin: 0.2em 4% 0.8em 4%; }
 
-/* line 73, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 74, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 p.intro {
   font-size: 1.2em;
   margin-bottom: 1.3em;
   color: #72950d; }
 
-/* line 80, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 81, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 ul, li {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  list-style: none; }
 
-/* line 82, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 83, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 ul.navbuttons {
   width: 92%;
   margin: 0 auto 2em auto;
   list-style: none; }
-  /* line 86, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  /* line 87, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
   ul.navbuttons li {
     margin: 0.4em 0; }
-  /* line 89, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  /* line 90, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
   ul.navbuttons li a {
     display: block;
     width: 100%;
@@ -76,45 +77,78 @@ ul.navbuttons {
     -moz-border-radius: 1em;
     border-radius: 1em;
     padding: 0.3em; }
+  /* line 103, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.navbuttons li a:hover, ul.navbuttons li a:active {
+    background-color: #ddc7ef; }
 
-/* line 103, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 107, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 ul.vendor {
   margin-bottom: 1.5em;
   list-style: none;
   width: 100%; }
-  /* line 107, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  /* line 111, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
   ul.vendor li {
     margin: 0.3em 0;
     padding: 0.6em 0;
     width: 100%; }
-    /* line 111, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+    /* line 115, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
     ul.vendor li h3 {
       margin-top: 0; }
-    /* line 114, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+    /* line 118, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
     ul.vendor li a, ul.vendor li span {
       display: block;
       margin: 0 4%; }
-  /* line 119, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  /* line 123, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
   ul.vendor li:nth-child(odd) {
     background: #f7fce8; }
 
-/* line 125, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 129, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 div.intro {
   margin: 1em 0 2em; }
 
-/* line 129, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
-a.back {
+/* line 132, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+a.home, a.back {
   display: block;
-  margin: 0 4%;
+  margin: 0 4% 0.5em;
+  width: 10 em;
   text-align: center;
   color: #fff;
   font-weight: bold;
-  background: #72950d;
+  background: #400b6a;
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 1em;
   padding: 0.3em; }
 
-/* line 140, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+/* line 144, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
 body > article {
   margin-top: 2em; }
+
+/* line 148, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+ul.stages {
+  margin-bottom: 2em; }
+  /* line 151, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.stages h3 {
+    line-height: 75%;
+    margin: 2em 0 0.6em 0;
+    padding: 0 0 0 4%;
+    border-bottom: 1px solid #72950d;
+    color: #72950d;
+    font-size: 1.4em; }
+  /* line 159, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.stages ul {
+    margin: 0;
+    padding: 0.6em 0; }
+  /* line 163, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.stages ul:nth-child(odd) {
+    background: #f7fce8; }
+  /* line 166, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.stages ul li {
+    margin: 0 0 0 4%; }
+  /* line 169, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.stages ul li.band {
+    font-weight: bold;
+    font-size: 1em; }
+  /* line 173, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+  ul.stages ul li.time, ul.stages ul li.desc {
+    font-size: 0.8em; }

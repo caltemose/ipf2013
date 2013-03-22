@@ -7,6 +7,12 @@ if (isset($_GET['p'])) $p = $_GET['p'];
 else $p = 'home';
 require('inc/' . $p . '_vars.php');
 
+function home_link(){
+    $html  = '<a class="home" href="';
+    $html .= fix_link('home');
+    $html .= '">&laquo; Return Home</a>';
+    return $html;
+}
 function fix_link($page){
     $local = true;
     

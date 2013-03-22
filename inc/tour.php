@@ -42,4 +42,6 @@
 		    
 		</article>
 
+        <?php echo home_link(); ?>
+
 

@@ -59,3 +59,5 @@
 		</ul>
 
         <a class="back hidden" href="#">&laquo; Back to List</a>
+        
+        <?php echo home_link(); ?>

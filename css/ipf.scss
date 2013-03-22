@@ -4,7 +4,8 @@ IPF Styles
 
 $highlight: #72950d;
 $links: #400b6a;
-$odd_row: #f7fce8;
+$oddRow: #f7fce8;
+$buttonBackground: #e9dbf5;
 
 @mixin buttonBorder($r) {
     -webkit-border-radius: $r;
@@ -38,9 +39,9 @@ header {
 }
 
 h1 {
-    margin: 0.6em 0;
-    padding: 0.5em 4% 0.2em;
-    font-size: 1.4em;
+    margin: 0.4em 0;
+    padding: 0.3em 4% 0;
+    font-size: 1.6em;
     font-weight: normal;
     text-align: center;
     color: #fff;
@@ -53,7 +54,7 @@ h2 {
     padding: 0.2em 4%;
 }
 h2.home {
-    background: $odd_row;
+    background: $oddRow;
     border-top: 1px solid $highlight;
     border-bottom: 1px solid $highlight;
 }
@@ -77,7 +78,7 @@ p.intro {
 }
 
 
-ul, li { margin: 0; padding: 0 }
+ul, li { margin: 0; padding: 0; list-style: none; }
 
 ul.navbuttons {
     width: 92%;
@@ -92,12 +93,15 @@ ul.navbuttons {
         text-align: center;
         font-size: 1.2em;
         color: $links;
-        background: #e9dbf5;
-        background-color: #e9dbf5;
+        background: $buttonBackground;
+        background-color: $buttonBackground;
         border: 2px solid #c0afcf;
         /*@include buttonBackground;*/
         @include buttonBorder(1em);
         padding: 0.3em;
+    }
+    li a:hover, li a:active {
+        background-color: darken($buttonBackground, 5%);
     }
 }
 ul.vendor {
@@ -117,7 +121,7 @@ ul.vendor {
         }
     }
     li:nth-child(odd) {
-        background: $odd_row;
+        background: $oddRow;
     }
 }
 
@@ -125,14 +129,14 @@ ul.vendor {
 div.intro {
     margin: 1em 0 2em;
 }
-
-a.back {
+a.home, a.back {
     display: block;
-    margin: 0 4%;
+    margin: 0 4% 0.5em;
+    width: 10   em;
     text-align: center;
     color: #fff;
     font-weight: bold;
-    background: $highlight;
+    background: $links;
     @include buttonBorder(1em);
     padding: 0.3em;
 }
@@ -140,3 +144,34 @@ a.back {
 body > article {
     margin-top: 2em;
 }
+
+ul.stages {
+    margin-bottom: 2em;
+    
+    h3 {
+        line-height: 75%;
+        margin: 2em 0 0.6em 0;
+        padding: 0 0 0 4%;
+        border-bottom: 1px solid $highlight;
+        color: $highlight;
+        font-size: 1.4em;
+    }
+    ul {
+        margin: 0;
+        padding: 0.6em 0;
+    }
+    ul:nth-child(odd) {
+        background: $oddRow;
+    }
+    ul li {
+        margin:  0 0 0 4%;
+    }
+    ul li.band {
+        font-weight: bold;
+        font-size: 1em;
+    }
+    ul li.time, ul li.desc {
+        font-size: 0.8em;
+    }
+}
+
