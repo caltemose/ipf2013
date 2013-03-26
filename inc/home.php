@@ -24,8 +24,8 @@
 		
 		<h2 class="home">Locations</h2>
 		<ul class="navbuttons">
-			<li><a href="<?php echo fix_link('ticket-sales');?>">Ticket Sales</a></li>
-			<li><a href="<?php echo fix_link('lost-and-found');?>">Lost & Found</a></li>
-			<li><a href="<?php echo fix_link('map');?>">Festival Map</a></li>
+			<li><a href="<?php echo fix_link('locations');?>">Ticket Sales</a></li>
+			<li><a href="<?php echo fix_link('locations');?>">Lost & Found</a></li>
+			<li><a href="<?php echo fix_link('locations');?>">Festival Map</a></li>
 		</ul>		
 

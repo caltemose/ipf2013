@@ -82,8 +82,6 @@
 		</ul>
 		
 		
-		<!--
-		<a class="back hidden" href="#">&laquo; Back to List</a>
-		-->
-        
+		<a class="back" href="music-sunday.html">Sunday Bands</a>
+		
         <?php echo home_link(); ?>

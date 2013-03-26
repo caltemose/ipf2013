@@ -152,3 +152,20 @@ ul.stages {
   /* line 173, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
   ul.stages ul li.time, ul.stages ul li.desc {
     font-size: 0.8em; }
+
+/* line 177, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+article.tour-homes section h3 {
+  margin-top: 0.3em; }
+
+/* line 180, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+article.tour-homes section img {
+  display: block;
+  margin-top: 1.5em; }
+
+/* line 184, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+article.tour-homes section ul {
+  margin: 0.5em 4% 1.2em 4%; }
+
+/* line 191, /Users/chad/Data/Projects/Personal/InmanParkFestival/ipf2013-git/css/ipf.scss */
+p.footnote {
+  font-size: 0.8em; }
