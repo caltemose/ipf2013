@@ -40,6 +40,7 @@ The Castellano/Brewer family loves being a part of the Inman Park community and 
 		    </section>
 		    
 		    <section>
+		        <img src="img/houses/434-sinclair-ave.jpg" alt="434 Sinclair Avenue Photo" />
 		        <h3>434 Sinclair Avenue</h3>
                 <p>
 Welcome to this charming and inviting home which proudly takes its place among the historic bungalows, cottages and stately houses of Inman Park. There&rsquo;s a lot to be said for new construction as demonstrated in this lovely home built in 2003.
@@ -60,6 +61,7 @@ Private spaces include a custom-designed media room downstairs and four bedrooms
 		    </section>
 		    
 		    <section>
+		        <img src="img/houses/413-sinclair-ave.jpg" alt="413 Sinclair Ave Photo" />
 		        <h3>413 Sinclair Avenue</h3>
 <p>
 When Leigh Hays, a real estate agent, was previewing property in the neighborhood in early 1998, she was definitely not in the market for a house for herself. But when she walked into the living room of this 1939 Craftsman bungalow, it was truly love at first sight. In fact, she bought the house before seeing all of it, something she&rsquo;d never let her clients do! As Leigh tells it, &ldquo;I was so excited that I stopped opening doors once in the master bedroom and missed the master bath!&rdquo;</p>
@@ -74,6 +76,7 @@ Leigh loves her home inside and out and laughingly says, &ldquo;One of the best 
 		    </section>
 
 		    <section>
+		        <img src="img/houses/292-moreland-ave.jpg" alt="The Wrecking Bar Photo" />
 		        <h3>The Wrecking Bar Brewery<br/>292 Moreland Ave. NE</h3>
 <p>
 Frequently referred to as &ldquo;The Wrecking Bar,&rdquo; this remarkable 1900 Victorian house has eclectic elements of Roman, Renaissance and Baroque architecture and is highly recognizable with its beautiful semicircular front portico and classical Corinthian columns. The architect was Willis F. Denny II, who also designed Rhodes Hall and many other notable buildings in his short career. Originally, the building was the residence of Victor H. Kriegshaber who served in executive positions for countless business, civic, philanthropic and cultural organizations. Additionally, this building has been a church, a dance studio, and an architectural antiques operation which is where the Wrecking Bar name originates.
@@ -118,7 +121,7 @@ Carol&rsquo;s studio on the first floor is a riot of color and creativity and pe
 		    </section>
 
 		    <section>
-		    
+		        <img src="img/houses/970-waverly-way.jpg" alt="970 Waverly Way Photo" />
 		        <h3>970 Waverly Way</h3>
 <p>
 Built for $2,500 in 1915 by owner-architect Richard Wye, this Craftsman-style bungalow underwent a major addition and renovation in 2003 when Aimee and Nick bought it.&nbsp; They renovated the bathrooms and the kitchen (of course!) and added 400 square feet of family and dining space at the back of the home.&nbsp; They&rsquo;ve brought in their sense of color, light and artistry throughout.&nbsp; Now fast-forward to early 2013 when the homeowners redesigned the upstairs to include a master suite, added a wine cellar and installed a shower in the downstairs guest bathroom&hellip;with the goal of completion in time for the 2013 festival.&nbsp; They made it!
@@ -156,6 +159,7 @@ Almost 30 years after they first laid eyes on Inman Park, Jeanne and Jim now cal
 		    </section>
 
 		    <section>
+		        <img src="img/houses/768-lake-ave.jpg" alt="768 Lake Ave Photo" />
 		        <h3>768 Lake Avenue</h3>
 <p>
 The unusual and unique small building at 768 Lake Avenue is often mistaken for a commercial property.&nbsp; Although it is now the private residence of Amy and Trey Palmer, it was indeed used as a store for approximately 90 years.
@@ -180,6 +184,7 @@ Now Trey, Amy and bulldogs Fat Boy and Petunia call 768 Lake Avenue home, and en
 		    </section>
 
 		    <section>
+		        <img src="img/houses/828-virgil-street.jpg" alt="828 Virgil Street Garden Photo" />
 		        <h3>Garden at 828 Virgil Street</h3>
 <p>
 Welcome to an enchanted garden. The beauty begins before the yard even starts, with tiny plants peeking from between trees and sidewalks, letting all who pass by know that a true urban paradise awaits within. Step into the yard, past a unique and ornate metalwork gate, and let your eyes feast first on green, wild foliage pouring out of containers and held (barely) in check by a sweeping porch lit with wide, tin, welcoming farmhouse lamps. This porch is reminiscent of the deck of a ship as it sails above stone pavers leading to more backyard enchantments.
@@ -197,6 +202,7 @@ Subtleties abound: vines curled around hidden treasured art; small stones near a
 		    </section>
 
 		    <section>
+		        <img src="img/houses/845-ashland-ave.jpg" alt="845 Ashland Avenue Photo" />
 		        <h3>Garden at 845 Ashland Avenue</h3>
 <p>
 The garden at 845 Ashland Avenue is most assuredly as unique and special as the house the Cunninghams call home. Before Clark and Helen bought the house in 2002 it was the home of Christine Sibley, a beloved neighbor and local artist. Christine passed away in 1999, but her spirit lives on in this magical garden, which was once home to a menagerie of animals including goats, ducks and peacocks.
@@ -220,21 +226,81 @@ All and all, this is a beautiful garden for a couple who lovingly call 845 Ashla
 		    </section>
 
 		   	<section>
-		        <h3>Garden at 845 Ashland Avenue</h3>
+		        <h3>Inman Park Cooperative Preschool<br/>
+                760 Edgewood Avenue</h3>
+
+<p><strong>Closed Friday</strong><p>
+
+<p>
+Although Inman Park Cooperative Preschool was formally established in the early 1980s by a group of Inman Park parents, neighborhood parents in the 1960s and 1970s had joined together to create Mothers&rsquo; Days out and a Mothers&rsquo; Club to help meet the needs of the community.
+</p>
+
+<p>
+As the neighborhood changed and grew in the 1980s so did IPCP, starting with a move to its current building at the corner of Edgewood Avenue and Waddell Street. In the late 1990s, the lot across the street from the Edgewood building became available and, with the vision of the school&rsquo;s long-standing director, Patty Bonner, IPCP acquired the space.&nbsp; What was once a gravel lot is now an Outdoor Classroom and the crown jewel of the preschool.
+</p>
+
+<p>
+By receiving a &ldquo;Grants to Green Community Foundation&rdquo; grant, IPCP was able to use the summer of 2008 to start from scratch and build a preschool that was environmentally friendly, fostered the healthy growth and development of its children and complemented the incorporation of nature-based learning experiences, including a Nature in the City Summer Camp, as part of its curriculum. &nbsp;In doing this, IPCP not only gutted and completely renovated its former home, but also doubled in size with the addition of another building across the street (not on tour,) which houses IPCP&rsquo;s one and two year olds.
+</p>
+
+<p>
+Today, the Inman Park Cooperative Preschool serves children ages one to five from a variety of in-town neighborhoods.&nbsp; The cooperative spirit of the school remains as strong as ever and is a true example of the close-knit community that is Inman Park. (For information about enrollment and Nature in the City Summer Camp, visit ipcp.org.)
+</p>
+
 		        
 		    </section>
 		    
 		    <section>
-		        <h3>Garden at 845 Ashland Avenue</h3>
-		        
+		        <img src="img/houses/47-delta-place.jpg" alt="47 Delta Place Photo" />
+
+		        <h3>Garden at 47 Delta Place</h3>
+<p>
+From a kudzu-covered Georgia clay backyard to a show-stopping out-door lifestyle &ndash; that&rsquo;s what the Dwyers have created for themselves, their family, neighbors and friends.
+</p>
+
+<p>
+First there was a path, which was a raceway allowing for safe wipeouts for their children, Grace and Jack, on their bikes or skates.&nbsp; Then, after a whole-house renovation, it was time to really focus on the garden.&nbsp; And focus they did.&nbsp; The wrought-iron screened porch, an almost year-round favorite spot, started with the purchase of a gate and panels from Paris on Ponce and a desire to hear rain on a tin roof.&nbsp;&nbsp; The old pathway is still there, but now leads garden visitors from the courtyard to the fishpond, and on through the bottle arch to the fire pit area.
+</p>
+
+<p>
+Anchored by a weeping willow tree and vine-covered window frames, the brick courtyard is the work of Terry Bradshaw of Grounded Artistry, who is also responsible for the screened porch and the fishpond.&nbsp; The beautiful bricks conceal complicated and effective water management that channels water away from the house and safely to the street. A couple of steps from the courtyard you&rsquo;ll see the fishpond, covered with granite and metal sculptures that mimic the varied buildings of Atlanta&rsquo;s skyline. The fishpond&rsquo;s impressive metal work was created by Neil Carver of Carver Iron and Ward Bradshaw.
+John and Kris bought the iron bottle arch and star sculpture right here in Inman Park years before the garden actually took shape.&nbsp; Both pieces are by metal artist Mike Esslinger.
+</p>
+
+<p>
+Parties at the Dwyers&rsquo; often end up at the back of the garden with s&rsquo;mores and a last glass of wine around the fire pit and under the billowing parachute.&nbsp; The unique fire pit was made by Melinda Crisp of the Fire Pit Gallery in Niles, Ohio.
+</p>
+
+<p>
+John and Kris have created a wonderful space that is serene, interesting and most of all, fun for their kids, their two rambunctious labs and all who come to visit.
+</p>
 		    </section>
 		    
 		    <section>
-		        <h3>Garden at 845 Ashland Avenue</h3>
-		        
+		        <img src="img/houses/1050-edgewood-ave.jpg" alt="Inman Park United Methodist Church Photo" />
+		        <h3>Inman Park United Methodist Church<br/>
+                Reverend Matthew Nelson, Minister<br/>
+                1015 Edgewood Avenue
+                </h3>
+<p>
+A participant in the inaugural Inman Park Tour of Homes in 1971, Inman Park United Methodist Church has welcomed tour enthusiasts through its doors for 42 consecutive years.&nbsp; This is really no surprise from a congregation 116 years old and 125 members strong.&nbsp; Leading the way today is Reverend Matthew Nelson who, along with his young family, happily calls Inman Park home.
+</p>
+
+<p>
+Worship service by the founding group predates the Inman Park neighborhood itself.&nbsp; Members began meeting in private homes as early as 1866.&nbsp; Later they organized services under a small brush arbor before erecting a wood-frame structure in the nearby Edgewood community.&nbsp; At last, the cornerstone for the current structure was laid on September 6, 1897.&nbsp; A building dedication was held on April 17, 1898.
+</p>
+
+<p>
+The architect Willis Franklin Denny II (1874-1905) designed the sanctuary in Romanesque style when he was just 23 years old.&nbsp; Granite from Stone Mountain served as a primary building material and cost only $12,620.&nbsp; Today the sanctuary still boasts the original altar furniture, pews, chancel rail, wainscoting, ceiling and beams.&nbsp; Just a few steps beyond the sanctuary sits the pastor&rsquo;s study with the original church organ and archives &ndash; open for all to explore.
+</p>
+
+<p>
+Inman Park United Methodist church is an historic congregation with a 21<sup>st</sup> Century attitude. The church&rsquo;s mission has always been to live out God&rsquo;s Love and Grace under this roof and in our world, and it is a treasured part of the Inman Park community.
+</p>
+
 		    </section>
  
-		    <p class="footnote">Photos courtesy of Ben Mitchell.</p>
+		    <p class="footnote">Photos courtesy of neighbor Ben Mitchell.</p>
 		    
 		</article>
 

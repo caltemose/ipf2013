@@ -1,40 +1,11 @@
-<?php
-/*
-determine GET vars: page (String)
-require proper file
-*/
-if (isset($_GET['p'])) $p = $_GET['p'];
-else $p = 'home';
-require('inc/' . $p . '_vars.php');
 
-function home_link(){
-    $html  = '<a class="home" href="';
-    $html .= fix_link('home');
-    $html .= '">&laquo; Return Home</a>';
-    return $html;
-}
-function fix_link($page){
-    $local = true;
-    
-    switch($page) {
-        case "home": 
-            if ($local) $page = 'site.php';
-            else $page = 'index.html';
-            break;
-        default:
-            if ($local) $page = 'site.php?p=' . $page;
-            else $page = $page . '.html';
-    }
-    return $page;
-}
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
 <!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title>Inman Park Festival 2013 Mobile Site<?php echo $page_title;?></title>
-    <meta name="description" content="<?php echo $page_meta_desc;?>">
+    <title>Inman Park Festival 2013 Mobile Site | Arts and Crafts Vendors</title>
+    <meta name="description" content="This page lists the Arts and Crafts vendors for the 2013 Inman Park Festival.">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,31 +26,49 @@ function fix_link($page){
 
     <link rel="stylesheet" href="css/ipf.css">
     
+    <style type="text/css">
+    
+#map {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+#map img {
+	position: relative;
+	top: -400px;
+	left: -300px;
+}
+#zone.zone3 {
+	position: absolute;
+	width: 200px;
+	height: 300px;
+	top: 376px;
+	left: 155px;
+	background: url(img/z3.png) no-repeat;
+}
+
+    </style>
+    
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
 
 <header>
-    <a href="<?php echo fix_link('home');?>"><img src="img/ipf-logo.png" alt="Inman Park Festival" width="223" height="49" /></a>
+    <a href="site.php"><img src="img/ipf-logo.png" alt="Inman Park Festival" width="223" height="49" /></a>
 </header>
 
-<?php
-require('inc/' . $p . '.php');
-?>
-
+ 
+<div id="map">
+	<img src="img/big-map-2013.jpg" alt="Inman Park Festival Map" />
+</div>
+<div id="zone" class="zone3"></div>
 
 <script src="js/vendor/zepto.min.js"></script>
-<?php
-if ($page_js_path != '')
-    echo '<script src="js/' . $page_js_path . '"></script>';
-?>
 
-<script>/*
-var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
-(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-s.parentNode.insertBefore(g,s)}(document,"script"));
-*/</script>
+
+
+
 
 </body>
 </html>
